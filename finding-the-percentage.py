@@ -1,4 +1,4 @@
-'''
+"""
 The provided code stub will read in a dictionary containing key/value pairs of name:[marks] for a
 list of students. Print the average of the marks array for the student name provided, showing 2 places
 after the decimal.
@@ -28,4 +28,19 @@ Mike 55 60 50
 Mary
 
 Output: 34.0 Explanation: (40 + 55 + 70)/3
-'''
+"""
+
+
+class FindPercentage:
+    def __init__(self):
+        self.student_marks = dict()
+
+    # a static method to accept and return the number of students whose marks will be inputted
+    @staticmethod
+    def number_of_students():
+        num_of_students = int(input("Total number of students: "))
+        return num_of_students
+
+
+percentage = FindPercentage()
+print(percentage.number_of_students())
