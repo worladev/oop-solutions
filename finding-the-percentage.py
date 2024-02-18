@@ -41,6 +41,15 @@ class FindPercentage:
         num_of_students = int(input("Total number of students: "))
         return num_of_students
 
+    # a method to accept the names and scores and add them as key value pair to the student_marks variable
+    def student_name_and_marks(self):
+        for _ in range(self.number_of_students()):
+            name, *line = input("Enter student name and marks separated by a space: ").split()
+            scores = list(map(float, line))
+            self.student_marks[name] = scores
+        return self.student_marks
 
+
+# Use Cases
 percentage = FindPercentage()
-print(percentage.number_of_students())
+percentage.student_name_and_marks()
