@@ -4,7 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="6169d2c1-7d86-4ee7-b44a-9886cb45283e" name="Changes" comment="initiate class with static method" />
+    <list default="true" id="6169d2c1-7d86-4ee7-b44a-9886cb45283e" name="Changes" comment="a function to create a key value pair with student name and scores">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/finding-the-percentage.py" beforeDir="false" afterPath="$PROJECT_DIR$/finding-the-percentage.py" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -72,7 +75,15 @@
       <option name="project" value="LOCAL" />
       <updated>1708243254090</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="a function to create a key value pair with student name and scores">
+      <option name="closed" value="true" />
+      <created>1708246422837</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1708246422837</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -89,6 +100,7 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="git initialization" />
     <MESSAGE value="initiate class with static method" />
-    <option name="LAST_COMMIT_MESSAGE" value="initiate class with static method" />
+    <MESSAGE value="a function to create a key value pair with student name and scores" />
+    <option name="LAST_COMMIT_MESSAGE" value="a function to create a key value pair with student name and scores" />
   </component>
 </project>

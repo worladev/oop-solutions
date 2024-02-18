@@ -49,7 +49,20 @@ class FindPercentage:
             self.student_marks[name] = scores
         return self.student_marks
 
+    # a method to  accept student name and compute the average for that student.
+    def compute(self):
+        total_mark = 0
+        query_name = input("Enter student name to find average for: ")
+        mark_length = len(self.student_marks[query_name])
+
+        for i in self.student_marks[query_name]:
+            total_mark += i
+
+        average_mark = format((total_mark / mark_length), ".2f")
+        return average_mark
+
 
 # Use Cases
 percentage = FindPercentage()
 percentage.student_name_and_marks()
+print(f"Average Score: {percentage.compute()}")
